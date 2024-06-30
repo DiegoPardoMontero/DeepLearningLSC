@@ -1,4 +1,4 @@
-# Clasificación de Imágenes con ResNet50
+# Clasificación de LSC usando ResNet50
 
 ## Descripción del Proyecto
 
@@ -94,3 +94,8 @@ Este proyecto se enfoca en la clasificación de imágenes utilizando una arquite
   <summary>Contribuciones</summary>
   <p>Las contribuciones al proyecto son bienvenidas. Si tienes sugerencias o mejoras, no dudes en enviar un pull request o abrir un issue en el repositorio.</p>
 </details>
+
+
+
+### Fork de Proyecto [kerasDeepLSC](https://github.com/ypmunoz36/kerasDeepLSC)
+### Archivo README de autoria propia!
