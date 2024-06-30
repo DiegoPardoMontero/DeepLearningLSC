@@ -1,11 +1,11 @@
-# Clasificación de LSC usando ResNet50
+# Clasificación de LSC usando ResNet50 👋🤖👾
 
 ## Descripción del Proyecto
 
 Este proyecto se enfoca en la clasificación de imágenes utilizando una arquitectura de red neuronal convolucional (CNN) basada en ResNet50 preentrenada. El modelo está diseñado para clasificar imágenes en diferentes categorías, tales como "anciano", "joven", "bebe", entre otras. El script de entrenamiento (`train.py`) carga un conjunto de datos de imágenes organizadas en directorios por clase, entrena el modelo y guarda tanto el modelo entrenado como el binarizador de etiquetas para su posterior uso.
 
 <details>
-  <summary>Estructura del Proyecto</summary>
+  <summary><strong>Estructura del Proyecto</strong></summary>
   <ul>
     <li><strong>train.py</strong>: Script principal para entrenar el modelo.</li>
     <li><strong>model/</strong>: Directorio donde se guardará el modelo entrenado y el binarizador de etiquetas.</li>
@@ -15,7 +15,7 @@ Este proyecto se enfoca en la clasificación de imágenes utilizando una arquite
 </details>
 
 <details>
-  <summary>Requisitos</summary>
+  <summary><strong>Requisitos</strong></summary>
   <ul>
     <li>Python 3.x</li>
     <li>TensorFlow y Keras</li>
@@ -35,7 +35,7 @@ Este proyecto se enfoca en la clasificación de imágenes utilizando una arquite
 </details>
 
 <details>
-  <summary>Estructura del Dataset</summary>
+  <summary><strong>Estructura del Dataset</strong></summary>
   <pre>
   /dataset
   ├── anciano
@@ -51,7 +51,7 @@ Este proyecto se enfoca en la clasificación de imágenes utilizando una arquite
 </details>
 
 <details>
-  <summary>Uso</summary>
+  <summary><strong>Uso</strong></summary>
   <p>Para entrenar el modelo, ejecuta el siguiente comando:</p>
   <pre>
   <code>bash
@@ -67,7 +67,7 @@ Este proyecto se enfoca en la clasificación de imágenes utilizando una arquite
 </details>
 
 <details>
-  <summary>Explicación del Script `train.py`</summary>
+  <summary><strong>Explicación del Script `train.py`</strong></summary>
   <ol>
     <li><strong>Importación de Paquetes y Configuración Inicial</strong>: Se importan las bibliotecas necesarias y se configura Matplotlib para no requerir una interfaz gráfica.</li>
     <li><strong>Argumentos del Script</strong>: Define los argumentos necesarios para la ejecución del script: ruta del dataset, ruta para guardar el modelo y el binarizador de etiquetas, y el número de épocas de entrenamiento.</li>
@@ -86,7 +86,7 @@ Este proyecto se enfoca en la clasificación de imágenes utilizando una arquite
 </details>
 
 <details>
-  <summary>Resultados</summary>
+  <summary><strong>Resultados</strong></summary>
   <p>El modelo entrenado se evalúa y genera un informe de clasificación detallado. Además, se guarda un gráfico (<code>plot.png</code>) que muestra la pérdida y precisión del entrenamiento a lo largo de las épocas.</p>
 </details>
 
