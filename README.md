@@ -90,12 +90,6 @@ Este proyecto se enfoca en la clasificación de imágenes utilizando una arquite
   <p>El modelo entrenado se evalúa y genera un informe de clasificación detallado. Además, se guarda un gráfico (<code>plot.png</code>) que muestra la pérdida y precisión del entrenamiento a lo largo de las épocas.</p>
 </details>
 
-<details>
-  <summary>Contribuciones</summary>
-  <p>Las contribuciones al proyecto son bienvenidas. Si tienes sugerencias o mejoras, no dudes en enviar un pull request o abrir un issue en el repositorio.</p>
-</details>
-
-
 
 ### Fork de Proyecto [kerasDeepLSC](https://github.com/ypmunoz36/kerasDeepLSC)
 ### Archivo README de autoria propia!
